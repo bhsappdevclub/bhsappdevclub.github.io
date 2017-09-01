@@ -65,9 +65,13 @@
     text-align: right;
 }
 
+.pg-events h1 {
+    margin-top: 60px;
+}
+
 .pg-events img {
     max-height: 400px;
-    max-width: 500px;
+    max-width: 300px;
 }
 
 .pg-languages {
@@ -101,5 +105,9 @@
 
     .pg-events img {
         display: none;
+    }
+
+    .pg-events h1 {
+        margin-top: 0;
     }
 }
